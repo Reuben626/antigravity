@@ -1,7 +1,6 @@
 {
-    "rootDirectory": "dashboard",
-    "buildCommand": "npm run build",
-    "outputDirectory": "dist",
-    "installCommand": "npm install",
+    "installCommand": "cd dashboard && npm install",
+    "buildCommand": "cd dashboard && npm run build",
+    "outputDirectory": "dashboard/dist",
     "framework": null
 }
