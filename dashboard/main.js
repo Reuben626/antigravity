@@ -1,5 +1,5 @@
 /**
- * AI Pulse Dashboard — Main Application Logic
+ * POD Research Dashboard — Main Application Logic
  * =============================================
  * Loads feeds.json, renders article cards, handles source filtering,
  * search, bookmarking (localStorage), and 24h staleness checks.
