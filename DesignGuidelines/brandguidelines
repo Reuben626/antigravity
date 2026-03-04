@@ -1,0 +1,15 @@
+Colors
+Primary:#1990C6
+Accent:#136F99
+Background:#FFFFFF
+Text Primary:#141414
+Link:#136F99
+Fonts
+GT America(heading)
+Helvetica(body)
+Typography
+primary: Helvetica
+heading: GT America
+h1: 16px
+h2: 24px
+body: 12px
