@@ -270,7 +270,7 @@ function setupEventListeners() {
 
             // Update page title
             const title = document.getElementById('page-title');
-            title.textContent = activeView === 'saved' ? 'Saved Articles' : "Today's POD Pulse";
+            title.textContent = activeView === 'saved' ? 'Saved Articles' : "Today's POD Research";
 
             renderArticles();
         });

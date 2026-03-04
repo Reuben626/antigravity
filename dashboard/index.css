@@ -49,6 +49,8 @@
   --source-erank: #0891B2;
   --source-printful: #CC3333;
   --source-printify: #22C55E;
+  --source-amazon: #FF9900;
+  --source-profittree: #A855F7;
 
   /* Shadows */
   --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
@@ -453,6 +455,15 @@ a:hover {
   background: var(--source-printify);
 }
 
+.source-dot.amazon {
+  background: var(--source-amazon);
+}
+
+.source-dot.profittree {
+  background: var(--source-profittree);
+}
+
+
 /* ─── Stats Bar ──────────────────────────────────────────────── */
 .stats-bar {
   display: flex;
@@ -602,6 +613,18 @@ a:hover {
   background: rgba(34, 197, 94, 0.12);
   color: #4ADE80;
   border: 1px solid rgba(34, 197, 94, 0.2);
+}
+
+.source-badge.amazon {
+  background: rgba(255, 153, 0, 0.12);
+  color: #FBB040;
+  border: 1px solid rgba(255, 153, 0, 0.2);
+}
+
+.source-badge.profittree {
+  background: rgba(168, 85, 247, 0.12);
+  color: #C084FC;
+  border: 1px solid rgba(168, 85, 247, 0.2);
 }
 
 .bookmark-btn {
